@@ -37,6 +37,7 @@
     {"$GMObjectProperty":"v1","%Name":"xscale","filters":[],"listItems":[],"multiselect":false,"name":"xscale","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"yscale","filters":[],"listItems":[],"multiselect":false,"name":"yscale","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"opacity","filters":[],"listItems":[],"multiselect":false,"name":"opacity","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":".85","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"rotating_speed","filters":[],"listItems":[],"multiselect":false,"name":"rotating_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-image_angle += 1
+image_angle += rotating_speed
 
 // Check objects in set proximity and give attractive force or speed to that object
 
@@ -42,6 +42,8 @@ if (gravity_num > 0) {
 					image_xscale += .01
 					image_yscale += .01
 					proximity_radius += 1
+					max_gravity += 1
+					rotating_speed += .25
 			    }
 			}
         }

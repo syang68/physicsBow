@@ -73,6 +73,7 @@
     {"id":{"name":"World_1_Level_3","path":"rooms/World_1_Level_3/World_1_Level_3.yy",},},
     {"id":{"name":"World_BlackHole_Level_1","path":"rooms/World_BlackHole_Level_1/World_BlackHole_Level_1.yy",},},
     {"id":{"name":"World_BlackHole_Level_2","path":"rooms/World_BlackHole_Level_2/World_BlackHole_Level_2.yy",},},
+    {"id":{"name":"World_BlackHole_Level_3","path":"rooms/World_BlackHole_Level_3/World_BlackHole_Level_3.yy",},},
     {"id":{"name":"World_Portal_Level_1","path":"rooms/World_Portal_Level_1/World_Portal_Level_1.yy",},},
     {"id":{"name":"World_Portal_Level_2","path":"rooms/World_Portal_Level_2/World_Portal_Level_2.yy",},},
     {"id":{"name":"World_Portal_Level_3","path":"rooms/World_Portal_Level_3/World_Portal_Level_3.yy",},},
@@ -113,6 +114,7 @@
     {"roomId":{"name":"World_Portal_Level_3","path":"rooms/World_Portal_Level_3/World_Portal_Level_3.yy",},},
     {"roomId":{"name":"World_BlackHole_Level_1","path":"rooms/World_BlackHole_Level_1/World_BlackHole_Level_1.yy",},},
     {"roomId":{"name":"World_BlackHole_Level_2","path":"rooms/World_BlackHole_Level_2/World_BlackHole_Level_2.yy",},},
+    {"roomId":{"name":"World_BlackHole_Level_3","path":"rooms/World_BlackHole_Level_3/World_BlackHole_Level_3.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
