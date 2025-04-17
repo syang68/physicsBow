@@ -1,7 +1,7 @@
 /// @description Fires arrow based on arrow type
 
 if mouse_pressed_in_room{
-	var angle = point_direction(x,y, mouse_x, mouse_y)
+	//arrow_angle = point_direction(x,y, mouse_x, mouse_y)
 
 	if(arrow_type == 2 || arrow_type == 3){
 		if(arrow_portal_type){
@@ -17,8 +17,8 @@ if mouse_pressed_in_room{
 	instance_create_layer(x,y,"Instances", obj_arrow, 
 	{
 		speed : arrow_speed,
-		direction: angle,
-		image_angle: angle,
+		direction: arrow_angle,
+		image_angle: arrow_angle,
 		arrow_type: arrow_type,
 	})
 

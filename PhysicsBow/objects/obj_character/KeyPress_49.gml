@@ -1,3 +1,5 @@
 /// @description Change arrow to gravity
 
-arrow_type = 1
+if gravity_arrow_unlocked{
+	arrow_type = 1
+}

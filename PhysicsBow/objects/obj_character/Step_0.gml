@@ -136,4 +136,5 @@ if (mouse_check_button(mb_left)){
 	if arrow_speed < arrow_max_speed{
 		arrow_speed += arrow_charge_power;
 	}
+	arrow_angle = point_direction(x,y, mouse_x, mouse_y)
 }
