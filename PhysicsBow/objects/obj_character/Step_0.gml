@@ -140,7 +140,7 @@ if (mouse_check_button(mb_left)){
 }
 
 if(arrow_type == 2 || arrow_type == 3 ){
-	if (portal_arrow_amount <= 0){
+	if ((portal_arrow_1_amount <= 0) && (portal_arrow_2_amount <= 0)){
 		arrow_type = 0
 	}
 }

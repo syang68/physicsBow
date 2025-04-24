@@ -9,3 +9,6 @@ arrow_charge_power = .075
 arrow_angle = 0
 
 mouse_pressed_in_room = false
+
+previous_angle = 0
+previous_power = 0

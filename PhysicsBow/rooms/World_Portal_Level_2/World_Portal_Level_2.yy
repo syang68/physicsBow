@@ -20,6 +20,7 @@
     {"name":"inst_714FE8B4","path":"rooms/World_Portal_Level_2/World_Portal_Level_2.yy",},
     {"name":"inst_3D614FA9","path":"rooms/World_Portal_Level_2/World_Portal_Level_2.yy",},
     {"name":"inst_1DF72C4","path":"rooms/World_Portal_Level_2/World_Portal_Level_2.yy",},
+    {"name":"inst_732885B8","path":"rooms/World_Portal_Level_2/World_Portal_Level_2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -61,6 +62,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_portal_1","path":"objects/obj_portal_1/obj_portal_1.yy",},"propertyId":{"name":"other_portal","path":"objects/obj_portal_1/obj_portal_1.yy",},"resource":{"name":"inst_6A7496AB","path":"rooms/World_Portal_Level_2/World_Portal_Level_2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"inst_6A7496AB",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_portal_1","path":"objects/obj_portal_1/obj_portal_1.yy",},"propertyId":{"name":"y_offset","path":"objects/obj_portal_1/obj_portal_1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-7",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.32924423,"scaleX":1.0,"scaleY":1.0,"x":779.18335,"y":463.81665,},
+        {"$GMRInstance":"v1","%Name":"inst_732885B8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_732885B8","objectId":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":756.0,"y":222.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_background_mountain","path":"sprites/spr_background_mountain/spr_background_mountain.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
