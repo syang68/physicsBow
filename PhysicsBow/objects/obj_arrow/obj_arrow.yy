@@ -37,6 +37,9 @@
     {"$GMObjectProperty":"v1","%Name":"gravity","filters":[],"listItems":[],"multiselect":false,"name":"gravity","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":".07","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"gravity_direction","filters":[],"listItems":[],"multiselect":false,"name":"gravity_direction","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"270","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"arrow_type","filters":[],"listItems":[],"multiselect":false,"name":"arrow_type","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"arrow_trail_frequency","filters":[],"listItems":[],"multiselect":false,"name":"arrow_trail_frequency","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"stuck_on_object","filters":[],"listItems":[],"multiselect":false,"name":"stuck_on_object","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"stuck_on","filters":[],"listItems":[],"multiselect":false,"name":"stuck_on","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
@@ -45,6 +48,9 @@
     "name":"spr_arrow",
     "path":"sprites/spr_arrow/spr_arrow.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_arrow_head",
+    "path":"sprites/spr_arrow_head/spr_arrow_head.yy",
+  },
   "visible":true,
 }

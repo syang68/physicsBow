@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_target_movement",
-    "path":"sprites/spr_target_movement/spr_target_movement.yy",
+    "name":"spr_target_1",
+    "path":"sprites/spr_target_1/spr_target_1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

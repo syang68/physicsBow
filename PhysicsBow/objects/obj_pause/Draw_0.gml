@@ -1,4 +1,4 @@
-if paused == true
+if global.paused == true
 {
 if !surface_exists(paused_surf)
     {
@@ -22,6 +22,7 @@ if !surface_exists(paused_surf)
     draw_rectangle_colour(0, 0, room_width, room_height, c_black, c_black, c_black, c_black, false);
     draw_set_alpha(1);
     draw_set_halign(fa_center);
+	draw_self()
     draw_text_transformed_colour(room_width / 2, room_height / 3, "PAUSED", 2, 2, 0, c_aqua, c_aqua, c_aqua, c_aqua, 1);
     draw_set_halign(fa_left);
 	

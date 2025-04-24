@@ -1,17 +1,18 @@
-if room != Title
+if room != Title or room != Map
 {
 	if keyboard_check_pressed(ord("P"))
 	{
-		paused = !paused;
-		if paused = false
+		global.paused = !global.paused;
+		if global.paused = false
 		{
+			sprite_index = noone
 			instance_activate_all()
 			instance_deactivate_layer("Buttons");
 			surface_free(paused_surf);
 			paused_surf = -1;
 		}
 		
-		if paused = true
+		if global.paused = true
 		{
 			/*
 			instance_create_layer(room_width / 2, room_height / 2, "Instances",obj_button, 
@@ -22,6 +23,8 @@ if room != Title
 			{button_text : "Exit", purpose : 3,  button_y_pos : 2});
 			*/
 			instance_activate_layer("Buttons");
+			sprite_index = spr_menu_border
+			image_yscale = 1.5
 		}
 	}
 }

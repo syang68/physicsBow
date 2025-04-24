@@ -138,3 +138,14 @@ if (mouse_check_button(mb_left)){
 	}
 	arrow_angle = point_direction(x,y, mouse_x, mouse_y)
 }
+
+if(arrow_type == 2 || arrow_type == 3 ){
+	if (portal_arrow_amount <= 0){
+		arrow_type = 0
+	}
+}
+if(arrow_type == 1){
+	if (gravity_arrow_amount <= 0){
+		arrow_type = 0
+	}
+}
