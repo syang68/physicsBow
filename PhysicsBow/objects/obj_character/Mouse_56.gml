@@ -19,6 +19,7 @@ if mouse_pressed_in_room{
 	
 	if(arrow_type == 1){
 		gravity_arrow_amount -= 1
+		//audio_play_sound(snd_release_arrow_gravity, 0, 0)
 	}
 
 	instance_create_layer(x,y,"Instances", obj_arrow, 

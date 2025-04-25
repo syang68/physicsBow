@@ -149,3 +149,5 @@ if(arrow_type == 1){
 		arrow_type = 0
 	}
 }
+
+audio_listener_position(x, y, 0);

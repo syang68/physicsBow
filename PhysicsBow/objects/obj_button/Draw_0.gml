@@ -1,10 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
-x = room_width / 2
-y = room_height / 2 + button_y_pos * (height + 10)
-
+if centered{
+	x = room_width / 2
+	y = room_height / 2 + button_y_pos * (height + 10)
+}
 
 show_debug_message(x)
 show_debug_message(y)

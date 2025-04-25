@@ -30,7 +30,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"button_text","filters":[],"listItems":[],"multiselect":false,"name":"button_text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"PLAY","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"button_text","filters":[],"listItems":[],"multiselect":false,"name":"button_text","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"MAP","varType":2,},
     {"$GMObjectProperty":"v1","%Name":"purpose","filters":[],"listItems":[],"multiselect":false,"name":"purpose","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"button_y_pos","filters":[],"listItems":[],"multiselect":false,"name":"button_y_pos","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"fnt","filters":[
@@ -38,7 +38,7 @@
       ],"listItems":[],"multiselect":false,"name":"fnt","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"fnt_normal","path":"fonts/fnt_normal/fnt_normal.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"fnt_normal","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"room_to","filters":[
         "GMRoom",
-      ],"listItems":[],"multiselect":false,"name":"room_to","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Room1","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"room_to","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Map","path":"rooms/Map/Map.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Map","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
