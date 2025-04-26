@@ -69,6 +69,7 @@
     {"id":{"name":"obj_level","path":"objects/obj_level/obj_level.yy",},},
     {"id":{"name":"obj_lvl_unlock","path":"objects/obj_lvl_unlock/obj_lvl_unlock.yy",},},
     {"id":{"name":"obj_menu_arrow","path":"objects/obj_menu_arrow/obj_menu_arrow.yy",},},
+    {"id":{"name":"obj_pause_and_music_test","path":"objects/obj_pause_and_music_test/obj_pause_and_music_test.yy",},},
     {"id":{"name":"obj_pause_and_music","path":"objects/obj_pause_and_music/obj_pause_and_music.yy",},},
     {"id":{"name":"obj_portal_1","path":"objects/obj_portal_1/obj_portal_1.yy",},},
     {"id":{"name":"obj_portal_2","path":"objects/obj_portal_2/obj_portal_2.yy",},},

@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"obj_pause_and_music",
+  "%Name":"obj_pause_and_music_test",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -9,7 +9,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_pause_and_music",
+  "name":"obj_pause_and_music_test",
   "overriddenProperties":[],
   "parent":{
     "name":"Controller",
@@ -29,12 +29,7 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"button_1","filters":[],"listItems":[],"multiselect":false,"name":"button_1","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
-    {"$GMObjectProperty":"v1","%Name":"button_2","filters":[],"listItems":[],"multiselect":false,"name":"button_2","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
-    {"$GMObjectProperty":"v1","%Name":"button_3","filters":[],"listItems":[],"multiselect":false,"name":"button_3","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
-    {"$GMObjectProperty":"v1","%Name":"button_4","filters":[],"listItems":[],"multiselect":false,"name":"button_4","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
