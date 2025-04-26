@@ -13,4 +13,7 @@ switch (purpose)
 	case 3:
 		game_end();
 	break;
+	case 4:
+		room_goto(global.current_room);
+	break;
 }

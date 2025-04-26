@@ -14,6 +14,8 @@ upper = y - 2
 
 move_up = choose(true, false)
 
+unlocked = global.level_unlocked[level_number]
+
 if unlocked{
 	sprite_index = spr_unlocked_map
 	image_alpha = 0

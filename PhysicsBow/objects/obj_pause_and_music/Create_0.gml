@@ -9,3 +9,7 @@ y = room_height / 2 - 20
 audio_play_sound(snd_main_theme, 0, 1)
 
 //instance_deactivate_layer("Buttons")
+
+// Create level unlocked
+global.level_unlocked = array_create(15, false);
+global.current_room = room
