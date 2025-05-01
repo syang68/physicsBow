@@ -2,6 +2,8 @@
 if stuck_on && !instance_exists(stuck_on_object){
 	inMotion = true
 	stuck_on = false
+	hspeed = 0
+	vspeed = 0
 }
 
 if(inMotion){
@@ -28,6 +30,11 @@ if (x < 0 || x > room_width || y > room_height) {
 
 if(teleport_cooldown == 0){
 	teleport_cooldown--;
+}
+
+if stuck_on && instance_exists(stuck_on_object){
+	hspeed = stuck_on_object.hspeed
+	vspeed = stuck_on_object.vspeed
 }
 
 

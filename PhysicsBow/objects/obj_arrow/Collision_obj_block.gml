@@ -5,8 +5,8 @@ stuck_on = true
 stuck_on_object = other
 
 gravity = 0
-vspeed = 0
-hspeed = 0
+vspeed = other.vspeed
+hspeed = other.hspeed
 speed = 0
 
 var angle = 0
@@ -17,6 +17,7 @@ var bottom = other.bbox_bottom
 var left = other.bbox_left
 var right = other.bbox_right
 
+//var to_follow = other
 
 //
 image_angle = image_angle mod 360;
@@ -39,6 +40,7 @@ var d_right = abs(x+collision_x_offset - right);
 // Find the minimum distance
 var min_dist = min(d_top, d_bottom, d_left, d_right);
 
+/*
 show_debug_message("--------")
 show_debug_message(d_top);
 show_debug_message(d_bottom);
@@ -48,11 +50,12 @@ show_debug_message("Closest:")
 show_debug_message(min_dist);
 
 show_debug_message("--------")
+*/
 
 //if(teleport_cooldown <=0){
 	switch(arrow_type){
 		case 1: 
-			instance_create_layer(x,y,"Instances", obj_blackhole);
+			instance_create_layer(x,y,"Instances", obj_blackhole, {to_follow: stuck_on_object});
 			instance_destroy()
 			break;
 	
@@ -96,11 +99,11 @@ show_debug_message("--------")
 				}
 				
 				instance_create_layer(x,y,"Instances", obj_portal_1, 
-				{image_angle: angle, x_offset: x_teleport_offset, y_offset: y_teleport_offset});
+				{image_angle: angle, x_offset: x_teleport_offset, y_offset: y_teleport_offset, to_follow: stuck_on_object});
 			}
 			else{
 				instance_create_layer(x,y,"Instances", obj_portal_1, 
-				{image_angle: angle, x_offset: x_teleport_offset, y_offset: y_teleport_offset});
+				{image_angle: angle, x_offset: x_teleport_offset, y_offset: y_teleport_offset, to_follow: stuck_on_object});
 			}
 			instance_destroy()
 			break;
@@ -146,11 +149,11 @@ show_debug_message("--------")
 				}
 				
 				instance_create_layer(x,y,"Instances", obj_portal_2, 
-				{image_angle: angle, x_offset: x_teleport_offset, y_offset: y_teleport_offset});
+				{image_angle: angle, x_offset: x_teleport_offset, y_offset: y_teleport_offset, to_follow: stuck_on_object});
 			}
 			else{
 				instance_create_layer(x,y,"Instances", obj_portal_2, 
-				{image_angle: angle, x_offset: x_teleport_offset, y_offset: y_teleport_offset});
+				{image_angle: angle, x_offset: x_teleport_offset, y_offset: y_teleport_offset, to_follow: stuck_on_object});
 			}
 			instance_destroy()
 			break;

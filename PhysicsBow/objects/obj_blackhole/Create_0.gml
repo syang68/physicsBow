@@ -9,6 +9,8 @@ image_yscale = yscale
 gravity_list = ds_list_create();
 
 
+//show_debug_message(to_follow.object_index)
+
 /*
 
 if (!layer_exists("Effects")) {

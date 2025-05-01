@@ -52,3 +52,12 @@ if (gravity_num > 0) {
 
 // Destroy the ds_list after using it to avoid memory leaks
 ds_list_clear(gravity_list);
+
+
+
+if (to_follow != noone){
+	vspeed = to_follow.vspeed
+	hspeed = to_follow.hspeed
+}
+
+	
