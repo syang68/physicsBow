@@ -36,6 +36,8 @@
     {"$GMObjectProperty":"v1","%Name":"glow_color","filters":[],"listItems":[],"multiselect":false,"name":"glow_color","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FF00FF00","varType":7,},
     {"$GMObjectProperty":"v1","%Name":"glow_offset","filters":[],"listItems":[],"multiselect":false,"name":"glow_offset","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"to_follow","filters":[],"listItems":[],"multiselect":false,"name":"to_follow","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"stick_offset_x","filters":[],"listItems":[],"multiselect":false,"name":"stick_offset_x","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"stick_offset_y","filters":[],"listItems":[],"multiselect":false,"name":"stick_offset_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

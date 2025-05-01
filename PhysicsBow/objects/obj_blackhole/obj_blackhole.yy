@@ -43,6 +43,8 @@
     {"$GMObjectProperty":"v1","%Name":"to_follow","filters":[
         "GMObject",
       ],"listItems":[],"multiselect":false,"name":"to_follow","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"stick_offset_x","filters":[],"listItems":[],"multiselect":false,"name":"stick_offset_x","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"stick_offset_y","filters":[],"listItems":[],"multiselect":false,"name":"stick_offset_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

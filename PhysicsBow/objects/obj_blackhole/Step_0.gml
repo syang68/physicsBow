@@ -56,8 +56,11 @@ ds_list_clear(gravity_list);
 
 
 if (to_follow != noone){
-	vspeed = to_follow.vspeed
-	hspeed = to_follow.hspeed
+	//vspeed = to_follow.vspeed
+	//hspeed = to_follow.hspeed
+	
+	x = to_follow.x + stick_offset_x
+	y = to_follow.y + stick_offset_y
 }
 
 	

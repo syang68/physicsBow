@@ -4,6 +4,9 @@ inMotion = false
 stuck_on = true
 stuck_on_object = other
 
+stick_offset_x = x - other.x
+stick_offset_y = y - other.y
+
 gravity = 0
 vspeed = other.vspeed
 hspeed = other.hspeed
@@ -55,7 +58,7 @@ show_debug_message("--------")
 //if(teleport_cooldown <=0){
 	switch(arrow_type){
 		case 1: 
-			instance_create_layer(x,y,"Instances", obj_blackhole, {to_follow: stuck_on_object});
+			instance_create_layer(x,y,"Instances", obj_blackhole, {to_follow: stuck_on_object, stick_offset_x : stick_offset_x, stick_offset_y : stick_offset_y});
 			instance_destroy()
 			break;
 	
@@ -99,11 +102,11 @@ show_debug_message("--------")
 				}
 				
 				instance_create_layer(x,y,"Instances", obj_portal_1, 
-				{image_angle: angle, x_offset: x_teleport_offset, y_offset: y_teleport_offset, to_follow: stuck_on_object});
+				{image_angle: angle, x_offset: x_teleport_offset, y_offset: y_teleport_offset, to_follow: stuck_on_object, stick_offset_x : stick_offset_x, stick_offset_y : stick_offset_y});
 			}
 			else{
 				instance_create_layer(x,y,"Instances", obj_portal_1, 
-				{image_angle: angle, x_offset: x_teleport_offset, y_offset: y_teleport_offset, to_follow: stuck_on_object});
+				{image_angle: angle, x_offset: x_teleport_offset, y_offset: y_teleport_offset, to_follow: stuck_on_object, stick_offset_x : stick_offset_x, stick_offset_y : stick_offset_y});
 			}
 			instance_destroy()
 			break;
@@ -149,11 +152,11 @@ show_debug_message("--------")
 				}
 				
 				instance_create_layer(x,y,"Instances", obj_portal_2, 
-				{image_angle: angle, x_offset: x_teleport_offset, y_offset: y_teleport_offset, to_follow: stuck_on_object});
+				{image_angle: angle, x_offset: x_teleport_offset, y_offset: y_teleport_offset, to_follow: stuck_on_object, stick_offset_x : stick_offset_x, stick_offset_y : stick_offset_y});
 			}
 			else{
 				instance_create_layer(x,y,"Instances", obj_portal_2, 
-				{image_angle: angle, x_offset: x_teleport_offset, y_offset: y_teleport_offset, to_follow: stuck_on_object});
+				{image_angle: angle, x_offset: x_teleport_offset, y_offset: y_teleport_offset, to_follow: stuck_on_object, stick_offset_x : stick_offset_x, stick_offset_y : stick_offset_y});
 			}
 			instance_destroy()
 			break;

@@ -15,6 +15,9 @@ y_teleport_offset = 0;
 collision_y_offset = 0
 collision_x_offset = 0
 
+stick_offset_x = 0;
+stick_offset_y = 0;
+
 arrow_trail_counter = 0;
 
 saved_gravity = gravity

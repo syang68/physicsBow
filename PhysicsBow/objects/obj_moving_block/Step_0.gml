@@ -3,4 +3,7 @@
 //hspeed = move_hspeed
 //vspeed = move_vspeed
 
+x = x + xspeed;
+y = y + yspeed;
+
 //show_debug_message(hspeed)

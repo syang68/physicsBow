@@ -33,8 +33,11 @@ if(teleport_cooldown == 0){
 }
 
 if stuck_on && instance_exists(stuck_on_object){
-	hspeed = stuck_on_object.hspeed
-	vspeed = stuck_on_object.vspeed
+	//hspeed = stuck_on_object.hspeed
+	//vspeed = stuck_on_object.vspeed
+	
+	x = stuck_on_object.x + stick_offset_x
+	y = stuck_on_object.y + stick_offset_y
 }
 
 
