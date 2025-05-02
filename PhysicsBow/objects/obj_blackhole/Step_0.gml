@@ -16,6 +16,10 @@ if (gravity_num > 0) {
         var obj = ds_list_find_value(gravity_list, i); // Correct way to access ds_list values
 
         if (instance_exists(obj)) { // Ensure the object still exists
+			
+			obj.inMotion = true
+			obj.stuck_on = false
+			
             // Calculate direction to the black hole
             var dir = point_direction(obj.x, obj.y, x, y);
 
@@ -25,6 +29,7 @@ if (gravity_num > 0) {
             // Apply attraction force (stronger when closer)
             var force = clamp(max_gravity / (dist + 1), 0, max_gravity); // Adjust force strength as needed
 			//var force = exp(-dist / 50) * max_gravity
+			
 	
             // Apply speed towards the black hole
             obj.hspeed += lengthdir_x(force, dir);

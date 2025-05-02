@@ -6,6 +6,7 @@ if stuck_on && !instance_exists(stuck_on_object){
 	vspeed = 0
 }
 
+
 if(inMotion){
 	angle = point_direction(0,0,hspeed,vspeed)
 	image_angle = angle
