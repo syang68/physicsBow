@@ -1,0 +1,20 @@
+{
+  "$GMPath":"",
+  "%Name":"Path2",
+  "closed":true,
+  "kind":1,
+  "name":"Path2",
+  "parent":{
+    "name":"Environment",
+    "path":"folders/Objects/Environment.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":64.0,"y":384.0,},
+    {"speed":100.0,"x":160.0,"y":128.0,},
+    {"speed":100.0,"x":1120.0,"y":192.0,},
+    {"speed":100.0,"x":384.0,"y":352.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

@@ -4,3 +4,5 @@
 sineWave = 0
 
 path_start(follow_path, path_speed, path_action_reverse, true)
+
+image_blend = glow_color

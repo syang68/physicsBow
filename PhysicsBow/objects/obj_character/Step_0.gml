@@ -3,6 +3,8 @@ if (x < 440 || x > 800) {
     hspeed = 0;
 }
 
+x = clamp(x,15,1350)
+
 
 
  if hp <= 0 {
