@@ -12,8 +12,9 @@ red = lerp(red, r_new, color_lerp_speed);
 green = lerp(green, g_new, color_lerp_speed);
 blue = lerp(blue, b_new, color_lerp_speed);
 
-var color = make_color_rgb(red,green,blue)
-
+if randomly{
+	color = make_color_rgb(red,green,blue)
+}
 //Needs smooth from previous color to new color
 
 draw_set_color(color);

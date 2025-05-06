@@ -151,5 +151,8 @@ if(arrow_type == 1){
 		arrow_type = 0
 	}
 }
+if(normal_arrow_amount <= 0){
+	normal_arrow_amount = 0
+}
 
 audio_listener_position(x, y, 0);
