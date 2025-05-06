@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_lvl_unlock",
+  "%Name":"obj_lvl_unlock_score_keeper",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":5,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_lvl_unlock",
+  "name":"obj_lvl_unlock_score_keeper",
   "overriddenProperties":[],
   "parent":{
     "name":"Controller",

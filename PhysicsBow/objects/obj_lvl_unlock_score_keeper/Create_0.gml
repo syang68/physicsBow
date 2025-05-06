@@ -3,4 +3,4 @@
 
 global.level_unlocked[level_number] = true
 
-global.current_room = room
+

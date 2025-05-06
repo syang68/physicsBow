@@ -12,6 +12,7 @@ audio_play_sound(snd_main_theme, 0, 1)
 
 // Create level unlocked
 global.level_unlocked = array_create(15, false);
+global.level_score = array_create(15, 0);
 global.current_room = room
 
 button_1 = instance_create_layer(688, 293, "Buttons", obj_button_persistant,

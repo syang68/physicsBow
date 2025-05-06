@@ -113,7 +113,7 @@ show_debug_message("--------")
 	
 		case 3:
 			
-			var height_offset = sprite_get_height(spr_portal_2)/ 2
+			height_offset = sprite_get_height(spr_portal_2)/ 2
 		
 			// Determine which side is closest
 			// Determine which side is closest

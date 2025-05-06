@@ -2,7 +2,8 @@
 if(room != Title && room != Map){
 	
 	draw_set_colour($FFBFFBFF)
-	draw_rectangle(50, 5, 150, 95, false)
+	//draw_rectangle(50, 5, 150, 95, false)
+	draw_rectangle(50, 5, 200, 135, false)
 	
 	if(instance_exists(obj_character)){
 
@@ -29,6 +30,7 @@ if(room != Title && room != Map){
 		draw_set_font(fnt_normal);
 		draw_text(55, 105, "Angle: " + string(obj_character.previous_angle))
 		draw_text(55, 125, "Power: " + string(obj_character.previous_power))
+		draw_text(55, 145, "Normal Arrows: " + string(obj_character.normal_arrow_amount))
 	
 	}
 }

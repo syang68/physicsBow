@@ -12,3 +12,5 @@ mouse_pressed_in_room = false
 
 previous_angle = 0
 previous_power = 0
+
+current_arrow_amount = normal_arrow_amount

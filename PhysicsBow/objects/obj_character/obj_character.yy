@@ -52,6 +52,7 @@
     {"$GMObjectProperty":"v1","%Name":"portal_arrow_1_amount","filters":[],"listItems":[],"multiselect":false,"name":"portal_arrow_1_amount","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"gravity_arrow_amount","filters":[],"listItems":[],"multiselect":false,"name":"gravity_arrow_amount","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"portal_arrow_2_amount","filters":[],"listItems":[],"multiselect":false,"name":"portal_arrow_2_amount","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"normal_arrow_amount","filters":[],"listItems":[],"multiselect":false,"name":"normal_arrow_amount","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

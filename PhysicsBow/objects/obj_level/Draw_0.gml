@@ -11,4 +11,6 @@ for(var c=0; c<360; c++){
 
 gpu_set_blendmode(bm_normal)
 
+draw_sprite(to_draw,0,x,y);
+
 draw_self();
