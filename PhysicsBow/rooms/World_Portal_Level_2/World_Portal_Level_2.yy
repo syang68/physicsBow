@@ -4,7 +4,7 @@
   "creationCodeFile":"",
   "inheritCode":true,
   "inheritCreationOrder":true,
-  "inheritLayers":true,
+  "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_5BC6C62B","path":"rooms/World_Portal_Level_2/World_Portal_Level_2.yy",},
     {"name":"inst_6FA44DA3","path":"rooms/World_Portal_Level_2/World_Portal_Level_2.yy",},
@@ -26,7 +26,17 @@
   "isDnd":false,
   "layers":[
     {"$GMRAssetLayer":"","%Name":"Effects","assets":[],"depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Effects","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRInstanceLayer":"","%Name":"Buttons","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Buttons","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
+    {"$GMRInstanceLayer":"","%Name":"Buttons","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Buttons","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
+    {"$GMRTileLayer":"","%Name":"Tiles_1","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":48,"SerialiseWidth":86,"TileCompressedData":[
+          -3804,-2147483648,58,10,11,12,13,14,11,12,13,14,14,11,12,13,14,11,12,13,11,12,13,14,11,12,13,11,12,13,
+          14,13,14,11,11,12,13,14,12,13,11,12,13,14,11,12,13,14,11,12,13,14,11,12,13,14,11,12,13,14,15,-28,-2147483648,
+          58,805306383,805306374,805306373,805306372,805306371,805306370,805306369,805306374,805306373,805306372,
+          805306371,805306370,805306369,805306374,805306373,805306372,805306371,805306370,805306374,805306373,
+          805306372,805306371,805306370,805306369,805306373,805306372,805306371,805306370,805306374,805306373,
+          805306372,805306371,805306370,805306374,805306373,805306372,805306371,805306370,805306369,805306370,
+          805306369,805306374,805306373,805306372,805306371,805306370,805306374,805306373,805306372,805306371,
+          805306370,805306374,805306373,805306372,805306371,805306370,805306369,1073741839,-180,-2147483648,
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scifi","path":"tilesets/ts_scifi/ts_scifi.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_5BC6C62B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_5BC6C62B","path":"rooms/Room2/Room2.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_5BC6C62B","objectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":14.5,"scaleY":0.5,"x":784.0,"y":720.0,},
         {"$GMRInstance":"v1","%Name":"inst_23B02E5C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_23B02E5C","path":"rooms/Room2/Room2.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_23B02E5C","objectId":{"name":"obj_goal","path":"objects/obj_goal/obj_goal.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1184.0,"y":640.0,},
