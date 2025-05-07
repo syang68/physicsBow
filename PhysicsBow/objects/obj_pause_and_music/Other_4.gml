@@ -5,6 +5,10 @@
 global.paused = false;
 paused_surf = -1;
 
+if room != Map{
+	global.current_room = room
+}
+
 button_1 = instance_create_layer(688, 293, "Buttons", obj_button_persistant,
 								{
 									image_xscale : 4,

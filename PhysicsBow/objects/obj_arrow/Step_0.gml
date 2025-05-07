@@ -12,9 +12,20 @@ if(inMotion){
 	image_angle = angle
 	gravity = saved_gravity
 	
+	var hypotenuse = 7 //* image_xscale
+	var x_offset = hypotenuse * cos(degtorad(image_angle))
+	var y_offset = hypotenuse * sin(degtorad(image_angle))
 	
+	/*
 	if (arrow_trail_counter % arrow_trail_frequency == 0) { // Drop trail every few frames
     instance_create_layer(x - 1.5 * hspeed, y - 2 * vspeed, "Instances", obj_arrow_trail, 
+	{image_angle: angle, image_xscale: speed +.15, image_yscale: 2,
+	 image_alpha: .75, lifetime: 30, type: arrow_type})
+	}
+	*/
+	
+	if (arrow_trail_counter % arrow_trail_frequency == 0) { // Drop trail every few frames
+    instance_create_layer(x + x_offset, y - y_offset, "Instances", obj_arrow_trail, 
 	{image_angle: angle, image_xscale: speed +.15, image_yscale: 2,
 	 image_alpha: .75, lifetime: 30, type: arrow_type})
 	}

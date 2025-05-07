@@ -69,28 +69,28 @@ show_debug_message("--------")
 			// Determine which side is closest
 			if (min_dist == d_top) {
 				angle = 0;
-				y = top- 2;
+				y = top + 10;
 				x = clamp(x,left- height_offset, right - height_offset )
 				y_teleport_offset = -5;
 				show_debug_message("Hit Top");
 			}
 			else if (min_dist == d_bottom) {
 				angle = 180;
-				y = bottom + 2;
+				y = bottom - 2;
 				x = clamp(x, left- height_offset, right - height_offset);
 				y_teleport_offset = 5;
 				show_debug_message("Hit Bottom");
 			}
 			else if (min_dist == d_right) {
 				angle = 270;
-				x = right + 2;
+				x = right - 2;
 				y = clamp(y, top - height_offset, bottom - height_offset);
 				x_teleport_offset = 5;
 				show_debug_message("Hit Right");
 			}
 			else { // Left side is closest
 				angle = 90;
-				x = left - 2;
+				x = left + 2;
 				y = clamp(y, top - height_offset, bottom - height_offset);
 				x_teleport_offset = -5;
 				show_debug_message("Hit Left");
@@ -119,28 +119,28 @@ show_debug_message("--------")
 			// Determine which side is closest
 			if (min_dist == d_top) {
 				angle = 0;
-				y = top- 2;
+				y = top + 10;
 				x = clamp(x,left- height_offset, right - height_offset )
 				y_teleport_offset = -5;
 				show_debug_message("Hit Top");
 			}
 			else if (min_dist == d_bottom) {
 				angle = 180;
-				y = bottom + 2;
+				y = bottom - 2;
 				x = clamp(x, left- height_offset, right - height_offset);
 				y_teleport_offset = 5;
 				show_debug_message("Hit Bottom");
 			}
 			else if (min_dist == d_right) {
 				angle = 270;
-				x = right + 2;
+				x = right - 2;
 				y = clamp(y, top - height_offset, bottom - height_offset);
 				x_teleport_offset = 5;
 				show_debug_message("Hit Right");
 			}
 			else { // Left side is closest
 				angle = 90;
-				x = left - 2;
+				x = left + 2;
 				y = clamp(y, top - height_offset, bottom - height_offset);
 				x_teleport_offset = -5;
 				show_debug_message("Hit Left");

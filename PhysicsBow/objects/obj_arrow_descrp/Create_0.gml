@@ -14,6 +14,9 @@ switch arrow_type{
 	case 2:
 		sprite_index = spr_portal_arrow_menu
 		break;
+	case 3:
+		sprite_index = spr_portal_arrow_menu
+		break;
 }
 
 first_click = false
