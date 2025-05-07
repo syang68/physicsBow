@@ -22,6 +22,9 @@
     {"name":"inst_1DF72C4","path":"rooms/World_Portal_Level_2/World_Portal_Level_2.yy",},
     {"name":"inst_732885B8","path":"rooms/World_Portal_Level_2/World_Portal_Level_2.yy",},
     {"name":"inst_58F225DB","path":"rooms/World_Portal_Level_2/World_Portal_Level_2.yy",},
+    {"name":"inst_348B7E5E","path":"rooms/World_Portal_Level_2/World_Portal_Level_2.yy",},
+    {"name":"inst_6DAA9010","path":"rooms/World_Portal_Level_2/World_Portal_Level_2.yy",},
+    {"name":"inst_10C87B8E","path":"rooms/World_Portal_Level_2/World_Portal_Level_2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -38,6 +41,17 @@
           805306370,805306374,805306373,805306372,805306371,805306370,805306369,1073741839,-180,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scifi","path":"tilesets/ts_scifi/ts_scifi.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v1","%Name":"inst_348B7E5E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_348B7E5E","objectId":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"propertyId":{"name":"hspeed","path":"objects/obj_asteroid/obj_asteroid.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":".2",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"propertyId":{"name":"vspeed","path":"objects/obj_asteroid/obj_asteroid.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":".75",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"propertyId":{"name":"rotation_speed","path":"objects/obj_asteroid/obj_asteroid.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":".2",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":192.0,"y":160.0,},
+        {"$GMRInstance":"v1","%Name":"inst_6DAA9010","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6DAA9010","objectId":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"propertyId":{"name":"vspeed","path":"objects/obj_asteroid/obj_asteroid.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":".5",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"propertyId":{"name":"rotation_speed","path":"objects/obj_asteroid/obj_asteroid.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"propertyId":{"name":"hspeed","path":"objects/obj_asteroid/obj_asteroid.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3.4",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":234.0,"scaleX":1.0,"scaleY":1.0,"x":800.0,"y":160.0,},
+        {"$GMRInstance":"v1","%Name":"inst_10C87B8E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_10C87B8E","objectId":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":45.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":384.0,},
         {"$GMRInstance":"v1","%Name":"inst_5BC6C62B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_5BC6C62B","path":"rooms/Room2/Room2.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_5BC6C62B","objectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":14.5,"scaleY":0.5,"x":784.0,"y":720.0,},
         {"$GMRInstance":"v1","%Name":"inst_23B02E5C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_23B02E5C","path":"rooms/Room2/Room2.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_23B02E5C","objectId":{"name":"obj_goal","path":"objects/obj_goal/obj_goal.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1184.0,"y":640.0,},
         {"$GMRInstance":"v1","%Name":"inst_6D17012A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_6D17012A","path":"rooms/World_Portal_Level_1/World_Portal_Level_1.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_6D17012A","objectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":5.7525196,"scaleY":0.5,"x":872.0806,"y":480.0,},
@@ -78,7 +92,19 @@
         {"$GMRInstance":"v1","%Name":"inst_6FA44DA3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_6FA44DA3","path":"rooms/Room2/Room2.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_6FA44DA3","objectId":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":672.0,},
         {"$GMRInstance":"v1","%Name":"inst_42C62D7E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_42C62D7E","path":"rooms/Room2/Room2.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_42C62D7E","objectId":{"name":"obj_arms","path":"objects/obj_arms/obj_arms.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":672.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_earth2ship","path":"sprites/spr_earth2ship/spr_earth2ship.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":700,"effectEnabled":true,"effectType":"_filter_heathaze","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[
+        {"name":"g_Distort1Speed","type":0,"value":"0.01",},
+        {"name":"g_Distort2Speed","type":0,"value":"0.025",},
+        {"name":"g_Distort1Scale","type":0,"value":"2.3",},
+        {"name":"g_Distort1Scale","type":0,"value":"1.3",},
+        {"name":"g_Distort2Scale","type":0,"value":"4.3",},
+        {"name":"g_Distort2Scale","type":0,"value":"3.3",},
+        {"name":"g_Distort1Amount","type":0,"value":"2",},
+        {"name":"g_Distort2Amount","type":0,"value":"3",},
+        {"name":"g_ChromaSpreadAmount","type":0,"value":"0.5",},
+        {"name":"g_CamOffsetScale","type":0,"value":"1",},
+        {"name":"g_DistortTexture","type":2,"value":"_filter_heathaze_noise_sprite",},
+      ],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_earth2ship","path":"sprites/spr_earth2ship/spr_earth2ship.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"World_Portal_Level_2",
   "parent":{

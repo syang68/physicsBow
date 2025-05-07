@@ -21,6 +21,9 @@
     {"name":"inst_14E433B7","path":"rooms/World_Portal_Level_3/World_Portal_Level_3.yy",},
     {"name":"inst_1D7AFA22","path":"rooms/World_Portal_Level_3/World_Portal_Level_3.yy",},
     {"name":"inst_124D57B","path":"rooms/World_Portal_Level_3/World_Portal_Level_3.yy",},
+    {"name":"inst_2C9A65C8","path":"rooms/World_Portal_Level_3/World_Portal_Level_3.yy",},
+    {"name":"inst_4AC5B78A","path":"rooms/World_Portal_Level_3/World_Portal_Level_3.yy",},
+    {"name":"inst_3CCD780C","path":"rooms/World_Portal_Level_3/World_Portal_Level_3.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -37,6 +40,13 @@
           805306370,805306369,1073741831,-180,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scifi","path":"tilesets/ts_scifi/ts_scifi.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v1","%Name":"inst_2C9A65C8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2C9A65C8","objectId":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"propertyId":{"name":"random_all","path":"objects/obj_asteroid/obj_asteroid.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":256.0,},
+        {"$GMRInstance":"v1","%Name":"inst_4AC5B78A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4AC5B78A","objectId":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"propertyId":{"name":"random_all","path":"objects/obj_asteroid/obj_asteroid.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1184.0,"y":256.0,},
+        {"$GMRInstance":"v1","%Name":"inst_3CCD780C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3CCD780C","objectId":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":832.0,"y":224.0,},
         {"$GMRInstance":"v1","%Name":"inst_5BC6C62B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_5BC6C62B","path":"rooms/Room2/Room2.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_5BC6C62B","objectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":14.5,"scaleY":0.5,"x":784.0,"y":720.0,},
         {"$GMRInstance":"v1","%Name":"inst_23B02E5C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_23B02E5C","path":"rooms/Room2/Room2.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_23B02E5C","objectId":{"name":"obj_goal","path":"objects/obj_goal/obj_goal.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1184.0,"y":640.0,},
         {"$GMRInstance":"v1","%Name":"inst_6D17012A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_6D17012A","path":"rooms/World_Portal_Level_1/World_Portal_Level_1.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_6D17012A","objectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":2.0,"x":992.0,"y":480.0,},

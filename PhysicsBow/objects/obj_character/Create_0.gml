@@ -14,3 +14,7 @@ previous_angle = 0
 previous_power = 0
 
 current_arrow_amount = normal_arrow_amount
+
+can_shoot = true
+
+paused = false

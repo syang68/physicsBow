@@ -16,6 +16,7 @@ if room != Title && room != Map
 		instance_activate_layer("Buttons");
 		sprite_index = spr_menu_border
 		image_yscale = 1.75
+		
 	}
 	
 }

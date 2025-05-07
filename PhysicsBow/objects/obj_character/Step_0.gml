@@ -11,6 +11,8 @@ x = clamp(x,15,1350)
 	instance_destroy()
 }
 
+if not paused{mouse_pressed_in_room = true}
+
 
 //Movement Handling
 

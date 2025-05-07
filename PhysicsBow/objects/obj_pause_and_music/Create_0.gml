@@ -1,6 +1,7 @@
 
 global.paused = false;
 
+
 paused_surf = -1;
 
 x = room_width / 2

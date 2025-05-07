@@ -17,6 +17,7 @@
     {"name":"inst_5BBEE1EC","path":"rooms/Room3/Room3.yy",},
     {"name":"inst_3AF6E50E","path":"rooms/Room3/Room3.yy",},
     {"name":"inst_522700ED","path":"rooms/Room3/Room3.yy",},
+    {"name":"inst_7A6085BA","path":"rooms/Room3/Room3.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -25,6 +26,12 @@
         {"$GMRInstance":"v1","%Name":"inst_2E946090","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2E946090","objectId":{"name":"obj_lvl_unlock_score_keeper","path":"objects/obj_lvl_unlock_score_keeper/obj_lvl_unlock_score_keeper.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_lvl_unlock_score_keeper","path":"objects/obj_lvl_unlock_score_keeper/obj_lvl_unlock_score_keeper.yy",},"propertyId":{"name":"level_number","path":"objects/obj_lvl_unlock_score_keeper/obj_lvl_unlock_score_keeper.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":768.0,"y":352.0,},
+        {"$GMRInstance":"v1","%Name":"inst_7A6085BA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7A6085BA","objectId":{"name":"obJ_arrow_pickup","path":"objects/obJ_arrow_pickup/obJ_arrow_pickup.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obJ_arrow_pickup","path":"objects/obJ_arrow_pickup/obJ_arrow_pickup.yy",},"propertyId":{"name":"glow_offset","path":"objects/obJ_arrow_pickup/obJ_arrow_pickup.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obJ_arrow_pickup","path":"objects/obJ_arrow_pickup/obJ_arrow_pickup.yy",},"propertyId":{"name":"arrow_type","path":"objects/obJ_arrow_pickup/obJ_arrow_pickup.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obJ_arrow_pickup","path":"objects/obJ_arrow_pickup/obJ_arrow_pickup.yy",},"propertyId":{"name":"amplitude","path":"objects/obJ_arrow_pickup/obJ_arrow_pickup.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":".5",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obJ_arrow_pickup","path":"objects/obJ_arrow_pickup/obJ_arrow_pickup.yy",},"propertyId":{"name":"frequency","path":"objects/obJ_arrow_pickup/obJ_arrow_pickup.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":".025",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":1157.0,"y":672.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Buttons","depth":-101,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Buttons","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
     {"$GMRBackgroundLayer":"","%Name":"Backgrounds_4","animationFPS":15.0,"animationSpeedType":0,"colour":335544575,"depth":-1,"effectEnabled":true,"effectType":"_filter_clouds","gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Backgrounds_4","properties":[
