@@ -7,3 +7,5 @@ font_enable_effects(fnt_normal, true, {
 	outlineColor: c_black
 })
 */
+
+show_inventory = false

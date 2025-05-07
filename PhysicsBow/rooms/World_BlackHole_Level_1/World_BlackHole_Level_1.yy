@@ -18,6 +18,8 @@
     {"name":"inst_4BD574B4","path":"rooms/World_BlackHole_Level_1/World_BlackHole_Level_1.yy",},
     {"name":"inst_603DFBAF","path":"rooms/World_BlackHole_Level_1/World_BlackHole_Level_1.yy",},
     {"name":"inst_2D1DFAF6","path":"rooms/World_BlackHole_Level_1/World_BlackHole_Level_1.yy",},
+    {"name":"inst_18D56CA1","path":"rooms/World_BlackHole_Level_1/World_BlackHole_Level_1.yy",},
+    {"name":"inst_50AAB5F1","path":"rooms/World_BlackHole_Level_1/World_BlackHole_Level_1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -46,6 +48,12 @@
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":320.0,},
         {"$GMRInstance":"v1","%Name":"inst_6FA44DA3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_6FA44DA3","path":"rooms/Room2/Room2.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_6FA44DA3","objectId":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":672.0,},
         {"$GMRInstance":"v1","%Name":"inst_42C62D7E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_42C62D7E","path":"rooms/Room2/Room2.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_42C62D7E","objectId":{"name":"obj_arms","path":"objects/obj_arms/obj_arms.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":672.0,},
+        {"$GMRInstance":"v1","%Name":"inst_18D56CA1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_18D56CA1","objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"propertyId":{"name":"text","path":"objects/obj_text/obj_text.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"I : INVENTORY",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1184.0,"y":96.0,},
+        {"$GMRInstance":"v1","%Name":"inst_50AAB5F1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_50AAB5F1","objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"propertyId":{"name":"text","path":"objects/obj_text/obj_text.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"P : PAUSE",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1184.0,"y":64.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_ship_bottom","path":"sprites/spr_ship_bottom/spr_ship_bottom.yy",},"stretch":true,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

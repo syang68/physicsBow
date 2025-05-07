@@ -18,6 +18,8 @@
     {"name":"inst_3AF6E50E","path":"rooms/Room3/Room3.yy",},
     {"name":"inst_522700ED","path":"rooms/Room3/Room3.yy",},
     {"name":"inst_7A6085BA","path":"rooms/Room3/Room3.yy",},
+    {"name":"inst_5DB6F218","path":"rooms/Room3/Room3.yy",},
+    {"name":"inst_5A692DB7","path":"rooms/Room3/Room3.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -65,6 +67,12 @@
         {"$GMRInstance":"v1","%Name":"inst_6FA44DA3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_6FA44DA3","path":"rooms/Room2/Room2.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_6FA44DA3","objectId":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":75.0,"y":708.0,},
         {"$GMRInstance":"v1","%Name":"inst_42C62D7E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_42C62D7E","path":"rooms/Room2/Room2.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_42C62D7E","objectId":{"name":"obj_arms","path":"objects/obj_arms/obj_arms.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":75.0,"y":708.0,},
         {"$GMRInstance":"v1","%Name":"inst_5BC6C62B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":true,"inheritedItemId":{"name":"inst_5BC6C62B","path":"rooms/Room2/Room2.yy",},"inheritItemSettings":false,"isDnd":false,"name":"inst_5BC6C62B","objectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":21.34375,"scaleY":0.40625,"x":683.0,"y":755.0,},
+        {"$GMRInstance":"v1","%Name":"inst_5DB6F218","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5DB6F218","objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"propertyId":{"name":"text","path":"objects/obj_text/obj_text.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"I : INVENTORY",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1184.0,"y":96.0,},
+        {"$GMRInstance":"v1","%Name":"inst_5A692DB7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5A692DB7","objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_text","path":"objects/obj_text/obj_text.yy",},"propertyId":{"name":"text","path":"objects/obj_text/obj_text.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"P : PAUSE",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1184.0,"y":64.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":299,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":48,"SerialiseWidth":86,"TileCompressedData":[
           -3871,-2147483648,-2,10,-68,-2147483648,1,0,-14,-2147483648,86,1073741830,1,805306381,1879048200,1073741830,

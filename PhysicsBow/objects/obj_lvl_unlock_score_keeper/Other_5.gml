@@ -6,3 +6,4 @@ if (instance_exists(obj_character)){
 	show_debug_message("Level: " + string(level_number) + "Score: " + string(global.level_score[level_number]));
 	
 }
+audio_stop_sound(snd_portal)
