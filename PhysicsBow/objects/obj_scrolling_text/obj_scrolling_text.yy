@@ -28,12 +28,13 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"scroll_speed","filters":[],"listItems":[],"multiselect":false,"name":"scroll_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1.5","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"scroll_speed","filters":[],"listItems":[],"multiselect":false,"name":"scroll_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1.25","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"line_spacing","filters":[],"listItems":[],"multiselect":false,"name":"line_spacing","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"32","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"start_bottom","filters":[],"listItems":[],"multiselect":false,"name":"start_bottom","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"room_to","filters":[
         "GMRoom",
       ],"listItems":[],"multiselect":false,"name":"room_to","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Room_Intro","path":"rooms/Room_Intro/Room_Intro.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Room_Intro","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"show_credits","filters":[],"listItems":[],"multiselect":false,"name":"show_credits","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

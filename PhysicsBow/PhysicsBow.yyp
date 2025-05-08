@@ -175,7 +175,6 @@
     {"id":{"name":"spr_character_jump","path":"sprites/spr_character_jump/spr_character_jump.yy",},},
     {"id":{"name":"spr_character_walk","path":"sprites/spr_character_walk/spr_character_walk.yy",},},
     {"id":{"name":"spr_close2ship","path":"sprites/spr_close2ship/spr_close2ship.yy",},},
-    {"id":{"name":"spr_Cloud_Canopy_1","path":"sprites/spr_Cloud_Canopy_1/spr_Cloud_Canopy_1.yy",},},
     {"id":{"name":"spr_Cloud_Canopy_tileset_dark","path":"sprites/spr_Cloud_Canopy_tileset_dark/spr_Cloud_Canopy_tileset_dark.yy",},},
     {"id":{"name":"spr_Cloud_Canopy_tileset_gray","path":"sprites/spr_Cloud_Canopy_tileset_gray/spr_Cloud_Canopy_tileset_gray.yy",},},
     {"id":{"name":"spr_Cloud_Canopy_tileset","path":"sprites/spr_Cloud_Canopy_tileset/spr_Cloud_Canopy_tileset.yy",},},

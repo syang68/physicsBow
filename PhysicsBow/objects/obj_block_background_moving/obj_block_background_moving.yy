@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_block",
-    "path":"sprites/spr_block/spr_block.yy",
+    "name":"spr_Cloud_Canopy",
+    "path":"sprites/spr_Cloud_Canopy/spr_Cloud_Canopy.yy",
   },
   "spriteMaskId":null,
   "visible":true,

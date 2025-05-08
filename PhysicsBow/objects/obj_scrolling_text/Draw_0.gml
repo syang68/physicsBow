@@ -10,6 +10,7 @@ var lines = string_split(text, "\n");
 for (var i = 0; i < array_length(lines); i++) {
     y = scroll_y + i * line_spacing;
     if (y > -line_spacing && y < display_get_height()) {
-        draw_text(cx, y, lines[i]);
+        //draw_text(cx, y, lines[i]);
+		draw_text_transformed(cx,y,lines[i],2,2,0)
     }
 }
