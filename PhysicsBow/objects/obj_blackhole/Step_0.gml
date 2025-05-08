@@ -3,6 +3,10 @@
 
 image_angle += rotating_speed
 
+move_wrap(true, true, 25)
+hspeed = clamp(hspeed, -5, 5)
+vspeed = clamp(vspeed, -5, 5)
+
 // Check objects in set proximity and give attractive force or speed to that object
 
 
