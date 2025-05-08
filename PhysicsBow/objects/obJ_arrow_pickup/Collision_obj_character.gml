@@ -8,7 +8,7 @@ switch arrow_type{
 		other.normal_arrow_amount = 10
 		break;
 	case 1:
-		other.gravity_arrow_amount = 4
+		other.gravity_arrow_amount = 3
 		break;
 	case 2:
 		other.portal_arrow_1_amount = 2

@@ -56,12 +56,14 @@ if(room != Title && room != Map){
 		
 		outline(55,32,1,"Angle: " + string(obj_character.previous_angle))
 		outline(55,52,1, "Power: " + string(obj_character.previous_power))
+		outline(55,12,1,"Equipped Arrow: " + string(arrow_type_text))
 		
 		draw_set_colour(c_white)
 		draw_set_halign(fa_left)
 		draw_set_font(fnt_normal);
 		draw_text(55, 32, "Angle: " + string(obj_character.previous_angle))
 		draw_text(55, 52, "Power: " + string(obj_character.previous_power))
+		draw_text(55, 12, "Equipped Arrow: " + string(arrow_type_text))
 		
 		
 

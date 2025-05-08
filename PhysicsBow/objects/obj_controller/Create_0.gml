@@ -9,3 +9,4 @@ font_enable_effects(fnt_normal, true, {
 */
 
 show_inventory = false
+arrow_type_text = "None"

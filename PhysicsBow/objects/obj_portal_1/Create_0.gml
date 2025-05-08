@@ -19,3 +19,8 @@ electricitySys = part_system_create_layer("Effects", false, ps_green_electricity
 // Move it to your desired position
 part_system_position(electricitySys, x, y);
 */
+
+if (to_follow != noone){
+	stick_offset_x = x - to_follow.x
+	stick_offset_y = y - to_follow.y
+}
