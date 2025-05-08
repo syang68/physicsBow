@@ -11,7 +11,7 @@ gravity_list = ds_list_create();
 if randomize1{
 	image_xscale = random_range(.5,3.5)
 	image_yscale = image_xscale
-	rotating_speed = random_range(-5,5)
+	rotating_speed = image_xscale
 	hspeed = random_range(-3,3)
 	vspeed = random_range(-3,3)
 	proximity_radius = image_xscale * 100
