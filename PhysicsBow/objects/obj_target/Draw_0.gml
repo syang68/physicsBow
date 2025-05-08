@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if not hit{
+if not hit && image_alpha > 0{
 	gpu_set_blendmode(bm_add)
 
 	for(var c=0; c<360; c++){

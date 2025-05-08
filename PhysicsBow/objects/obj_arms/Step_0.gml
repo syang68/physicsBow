@@ -4,6 +4,7 @@ if (instance_exists(obj_character)){
 	y = obj_character.y - 5 //- 2
 	direction = point_direction(x,y, mouse_x, mouse_y)
 	image_angle = direction
+	depth = obj_character.depth - 1
 }
 
 if(image_index == 6){image_speed = 0}

@@ -3,11 +3,12 @@
 if mouse_pressed_in_room{
 	//arrow_angle = point_direction(x,y, mouse_x, mouse_y)
 
+	/*
 	if(arrow_type == 2 || arrow_type == 3 ){
 		if(arrow_portal_type){
 				arrow_type = 2;
 				arrow_portal_type = false;
-				portal_arrow_1_amount -= 1
+				portal_arrow_1_amount -= 1;
 				current_arrow_amount = portal_arrow_1_amount;
 			
 		}
@@ -20,6 +21,19 @@ if mouse_pressed_in_room{
 		}
 		
 	}
+	*/
+	
+	if(arrow_type == 2){
+				portal_arrow_1_amount -= 1;
+				current_arrow_amount = portal_arrow_1_amount;
+			
+	}
+	
+	if(arrow_type == 3){
+			portal_arrow_2_amount -= 1
+			current_arrow_amount = portal_arrow_2_amount
+	}
+	
 	
 	if(arrow_type == 1){
 			gravity_arrow_amount -= 1

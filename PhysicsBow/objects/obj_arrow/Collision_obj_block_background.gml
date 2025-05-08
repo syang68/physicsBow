@@ -8,8 +8,6 @@ stick_offset_x = x - other.x
 stick_offset_y = y - other.y
 
 gravity = 0
-
-
 vspeed = other.vspeed
 hspeed = other.hspeed
 speed = 0
