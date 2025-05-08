@@ -49,3 +49,5 @@ switch(arrow_type){
 		audio_play_sound(snd_release_arrow_portal, 0, 0, 1 * speed/3, 0, 2)
 		break;
 }
+
+

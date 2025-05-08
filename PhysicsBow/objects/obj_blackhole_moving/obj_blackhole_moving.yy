@@ -1,19 +1,22 @@
 {
   "$GMObject":"",
-  "%Name":"obj_blackhole",
+  "%Name":"obj_blackhole_moving",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_blackhole",
+  "name":"obj_blackhole_moving",
   "overriddenProperties":[],
   "parent":{
     "name":"Weapons and Effects",
     "path":"folders/Objects/Weapons and Effects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_blackhole",
+    "path":"objects/obj_blackhole/obj_blackhole.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

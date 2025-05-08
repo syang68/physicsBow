@@ -10,7 +10,7 @@ image_angle += rotating_speed
 // Create a ds_list for storing instances in range
 var gravity_num = collision_circle_list(x, y, proximity_radius, obj_arrow, false, true, gravity_list, true);
 var gravity_num2 = collision_circle_list(x, y, proximity_radius, obj_asteroid, false, true, gravity_list, true);
-var gravity_num3 = collision_circle_list(x, y, proximity_radius, obj_blackhole_moving, false, true, gravity_list, true);
+var gravity_num3 = collision_circle_list(x, y, proximity_radius, obj_blackhole, false, true, gravity_list, true);
 
 
 gravity_num = gravity_num + gravity_num2 + gravity_num3

@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 inMotion = false
 stuck_on = true
 stuck_on_object = other

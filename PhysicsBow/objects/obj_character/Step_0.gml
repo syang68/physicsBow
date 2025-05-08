@@ -175,3 +175,7 @@ if(normal_arrow_amount <= 0){
 }
 
 audio_listener_position(x, y, 0);
+
+if (y > room_height){
+	room_restart()
+}
