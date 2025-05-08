@@ -215,6 +215,7 @@
     {"id":{"name":"spr_mountain_clouds","path":"sprites/spr_mountain_clouds/spr_mountain_clouds.yy",},},
     {"id":{"name":"spr_mountain_mountains","path":"sprites/spr_mountain_mountains/spr_mountain_mountains.yy",},},
     {"id":{"name":"spr_mountain_sky","path":"sprites/spr_mountain_sky/spr_mountain_sky.yy",},},
+    {"id":{"name":"spr_nature","path":"sprites/spr_nature/spr_nature.yy",},},
     {"id":{"name":"spr_portal_1_2","path":"sprites/spr_portal_1_2/spr_portal_1_2.yy",},},
     {"id":{"name":"spr_portal_1","path":"sprites/spr_portal_1/spr_portal_1.yy",},},
     {"id":{"name":"spr_portal_2_2","path":"sprites/spr_portal_2_2/spr_portal_2_2.yy",},},
