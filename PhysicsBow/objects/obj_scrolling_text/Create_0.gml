@@ -1,6 +1,6 @@
 
 if (show_credits){
-	text = "Credits";
+	text = "The final arrow struck true.\nThe black hole collapsed into nothingness.\n\nEarth is spared.\nBut the explorer was pulled into the void,\nvanishing beyond the event horizon.\n\nTheir fate remains unknown.\nSome say they were lost.\nOthers believe they became something more.\n\nThe black hole is gone.\nThe world endures.\n";
 }
 else{
 	//text = "A long time ago in a galaxy far, far away...\n\nEPISODE IV\nA NEW HOPE\n\nIt is a period of civil war...";
